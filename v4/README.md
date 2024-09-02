@@ -9,7 +9,7 @@ GASからAWSに移行したバージョン
 >> バックエンドのメイン処理部。
 >>> #### [i5system_lmf_main](i5system_lmf_main.js)
 >>> LambdaFunction(メイン処理用)のコード。\
->>> HTTPリクエスト及びEventBridgeScheduler(毎日0時)により起動。\
+>>> HTTPリクエスト及びEventBridgeScheduler(毎日0時)により起動。
 >>> #### 環境変数
 >>> |キー|値|説明|
 >>> |-|-|-|
@@ -74,7 +74,7 @@ GASからAWSに移行したバージョン
 >>> #### [i5system_gas_exec](i5system_gas_exec.js)
 >>> GCP系サービスの操作用\
 >>> トリガー → 受信したメールをLambdaに送信\
->>> GETリクエスト → クエリパラメータに応じて(i5system_gss_db)[i5system_gss_db]やGmailを操作
+>>> GETリクエスト → クエリパラメータに応じて[i5system_gss_db](i5system_gss_db)やGmailを操作
 >>
 >>> #### [i5system_gas_rmUpdate](i5system_gas_rmUpdate.js)
 >>> 初回起動時用\
